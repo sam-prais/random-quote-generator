@@ -16,7 +16,7 @@ function App() {
 
 
     if (prevReal && randomNumber > 7) {
-      setQuote(`"Sam is the best"`);
+      setQuote(`"Sam is the best."`);
       setAuthor("Adrian Sackson");
       setPrevReal(false)
     } else {
